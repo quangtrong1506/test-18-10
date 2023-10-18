@@ -1,0 +1,101 @@
+.app__content {
+    margin-left: 150px;
+    min-height: calc(100vh - 80px);
+    transition: all 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+    .app__content {
+        margin-left: 0px;
+    }
+}
+
+.app__content .header {
+    width: 100%;
+    text-align: center;
+}
+.app__content .header a {
+    margin-top: 20px;
+    display: inline-block;
+}
+.app__content .header a img {
+    width: 310px;
+}
+@media (max-width: 768px) {
+    .app__content .header a img {
+        width: 200px;
+    }
+}
+.app__content section {
+    margin: 0 129px;
+}
+@media (max-width: 1400px) {
+    .app__content section {
+        margin: 0 50px;
+    }
+}
+@media (max-width: 768px) {
+    .app__content section {
+        margin: 0 30px;
+    }
+}
+@media (max-width: 480px) {
+    .app__content section {
+        margin: 0 10px;
+    }
+}
+.app__content section.text {
+    text-align: center;
+    background-color: #efefef;
+    padding: 38px 0;
+    margin-top: 30px;
+}
+.app__content section.text h3 {
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+}
+.app__content section.text p {
+    display: inline-block;
+    margin: 0 auto;
+    width: 972px;
+}
+@media (max-width: 1280px) {
+    .app__content section.text p {
+        width: 720px;
+    }
+}
+@media (max-width: 1024px) {
+    .app__content section.text p {
+        width: 500px;
+    }
+}
+@media (max-width: 640px) {
+    .app__content section.text p {
+        width: calc(100% - 50px);
+    }
+}
+.app__content section.posts {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.app__content section.posts .posts__item {
+    width: calc(100% / 3 - 30px);
+}
+@media (max-width: 1024px) {
+    .app__content section.posts .posts__item {
+        width: calc(100% / 2 - 30px);
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 640px) {
+    .app__content section.posts .posts__item {
+        width: calc(100%);
+    }
+}
+.app__content section.posts .posts__item .content img {
+    float: left;
+    margin-right: 10px;
+}

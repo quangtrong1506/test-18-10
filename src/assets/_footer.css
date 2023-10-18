@@ -1,0 +1,14 @@
+.footer {
+    height: 79px;
+    border-top: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 130px);
+    padding-left: 130px;
+}
+@media (max-width: 1400px) {
+    .footer {
+        padding-left: 50px;
+        width: calc(100% - 50px);
+    }
+}
