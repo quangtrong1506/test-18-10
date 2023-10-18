@@ -8,7 +8,7 @@ const SideBar = () => {
     }
     return (
         <>
-            <div className="app__nav nav show">
+            <div className="app__nav nav">
                 <ul>
                     <li className="active">
                         <a href="#">Home</a>
